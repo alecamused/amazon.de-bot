@@ -8,7 +8,7 @@ from pynput.keyboard import Key, Controller
 
 #the sleeps are needed to make sure all elemnts of the site are loaded just fine
 
-class Browserzonie:
+class BrowserBot:
     def __init__(self):
         # Create a browser we can play on
         self.Browser = webdriver.Chrome(webdriver_manager.chrome.ChromeDriverManager().install())
