@@ -20,3 +20,8 @@ Once you are logged in to amazon, go to the python-console and hit enter. Then t
 If the button was successfully clicked, the script will take you to your cart and try to complete the checkout process with your default settings.
 
 To avoid any surprises - make sure your cart is empty (or at least, there are no unwanted items in it).
+
+# usage
+- pip install -r requirements.txt
+- adapt auth.py to youre needs
+- python amazon_bot.py
